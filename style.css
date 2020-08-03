@@ -1,0 +1,35 @@
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif; 
+}
+#navbar{
+    display: flex;
+    background-color: #222;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+}
+#navbar a {
+    margin-right: 10px;
+    font-weight: 500;
+    color: cornsilk;
+    text-decoration: none;
+}
+#navbar a:hover{
+    background-color: blue;
+    text-decoration: underline;
+}
+
+/*
+wrapper - div
+height
+background-image or color
+flex
+position
+
+text - 2
+color, weight, size
+
+2nd text - sub-heading
+margin -
+*/
