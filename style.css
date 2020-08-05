@@ -73,6 +73,12 @@ body {
     background-color: rgb(1, 1, 8);
     text-decoration: underline;
 }
+#projects button{
+    display: flex;
+    justify-content: center;
+    height: 34px;
+    width: 139px;
+}
 #contact{
     padding-top: 40px;
     padding-bottom: 20px;
@@ -84,6 +90,12 @@ body {
 }
 #contact p{
     color: blanchedalmond;
+}
+#contact a {
+    margin-right: 10px;
+    font-weight: 500;
+    color: cornsilk;
+    text-decoration: none;
 }
 footer{
     padding-top: 40px;
