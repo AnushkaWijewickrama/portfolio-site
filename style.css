@@ -20,8 +20,61 @@ body {
     text-decoration: underline;
 }
 #hero{
+  padding: 60px;
+  text-align: center;
+  background: #000;
+  color: white;
+}
+#hero p{
+    font-style: italic;
+    color: crimson;
+
+}
+#projects{
+  padding: 60px;
+  background:rgba(13, 7, 66, 0.897);
+  
+}
+#projects h1{
+    justify-content: center;
+}
+#projects .container{
+    width: 100%;
+}
+#projects .container .single-project{
+    width: 32%;
+    display: inline-block;
+}
+#projects .container .single-project img{
+    height: 50%;
+}
+#projects a{
+    background-color: blanchedalmond(1, 1, 8);
+    text-decoration: underline;
+}
+#projects a:hover{
+    background-color: rgb(1, 1, 8);
+    text-decoration: underline;
+}
+#contact{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: black;
+}
+#contact h1{
+    color: blanchedalmond;
+}
+#contact p{
+    color: blanchedalmond;
+}
+footer{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
     
 }
+
 
 /*
 wrapper - div
