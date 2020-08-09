@@ -1,11 +1,14 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
     margin:0;
     font-family: 'Roboto', sans-serif; 
 }
 #navbar{
     display: flex;
-    background-color: #222;
-    justify-content: flex-end;
+    background-color:#1d3557;
+    justify-content: space-between;
     align-items: center;
     height: 60px;
     position: fixed;
@@ -23,21 +26,31 @@ body {
     background-color: blue;
     text-decoration: underline;
 }
+#navbar img{
+    width: 72px;
+}
+
 #hero{
-  padding-top: 175px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #000;
   color: white;
   height: 100vh;
+  background-image: url(images/project1.jpg);
+}
+#hero .header-wrapper{
+    text-align: center;
 }
 #hero p{
     font-style: italic;
-    color: crimson;
+    color:#f1faee;
 
 }
+/* Projects */
 #projects{
   padding: 60px;
-  background:rgba(13, 7, 66, 0.897);
+  background:#457b9d;
   
 }
 #projects h1{
@@ -51,12 +64,19 @@ body {
 #projects .container{
     width: 100%;
 }
-#projects .container .single-project h1{
+#projects .container .single-project{
+    transition: transform .2s;
+}
+#projects .container .single-project:hover{
+    transform: scale(1.2);
+}
+
+#projects .container .single-project h3{
     display: flex;
     justify-content: center;
     margin: 50px 0 20px 0;
     font-size: 21px;
-
+    color: white;
 }
 #projects .container .single-project .image {
     width: 100%;
@@ -65,7 +85,9 @@ body {
 #projects .container .single-project .image img {
     width: 100%;
     height: 220px;
+    border-radius: 20px 20px 0 0;
 }
+
 #projects .container .single-project a{
     display: flex;
     justify-content: center;
@@ -97,7 +119,14 @@ body {
     cursor: pointer;
     height: 34px;
     width: 139px;
+    border: 2px solid #ffffff;
+    border-radius: 16px;
+    transition-duration: 0.4s;
 }
+#projects button:hover {
+    background-color: #457b9d; /* Green */
+    color: white;
+  }
 #projects .container .more-projects{
     display: flex;
     justify-content: center;
@@ -107,9 +136,9 @@ body {
 #contact{
     padding-top: 40px;
     padding-bottom: 51px;
-    border-bottom: 9px solid #1e0a77;
+    border-bottom: 9px solid #a8dadc;
     text-align: center;
-    background: black;
+    background: #1d3557;
 }
 #contact h1{
     color: blanchedalmond;
@@ -124,8 +153,7 @@ body {
     text-decoration: none;
 }
 footer{
-    padding-top: 40px;
-    padding-bottom: 20px;
+    
     text-align: center;
     
 }
